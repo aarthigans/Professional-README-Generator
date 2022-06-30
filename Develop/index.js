@@ -5,8 +5,8 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is your title? (Required)",
-    validate: (titleInput) => {
+    message: 'What is the title of your project?  (Required)',
+    validate: titleInput => {
       if (titleInput) {
         return true;
       } else {
@@ -142,8 +142,11 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 const init = () => {
-  return inquirer.prompt(questions);
-};
+  return inquirer.prompt(questions)
+  .then(readmeData => {
+    console.log(readmeData);
+})
+}
 
 // Function call to initialize app
 init();
