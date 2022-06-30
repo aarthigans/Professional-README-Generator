@@ -8,27 +8,37 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Description
 
-  test desc
+  test description
 
   ## Installation
 
-  test install instructions
+  test installation steps
 
   ## Usage
 
-  test usage instructions
+  test usage steps
 
   ## License
 
-  Mozilla Public License 2.0
+
+  GNU AGPLv3
 
   ## Contributing
 
-  test contributing guidelines
+ undefined
 
   ## Tests
 
-  test testing instructions
+  test testing steps
+
+  ## Questions
+
+  For questions please contact me using the following links:
+
+  [GitHub](https://github.com/aarthigans)
+
+  [Email: testd3625@gmail.com](mailto:testd3625@gmail.com)
