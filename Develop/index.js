@@ -143,7 +143,7 @@ const questions = [
 // function writeToFile(fileName, data) {}
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README.md', fileContent, err => {
+        fs.writeFile('./dist/generated-README.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;
@@ -169,10 +169,14 @@ const init = () => {
 // Function call to initialize app
 init()
 .then(readmeData => {
+  console.log(readmeData);
     return generateMarkdown(readmeData);
 })
 .then(pageMD => {
     return writeFile(pageMD);
+})
+.then(writeFileResponse => {
+  console.log(writeFileResponse.message);
 })
 .catch(err => {
     console.log(err);
