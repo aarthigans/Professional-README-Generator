@@ -49,6 +49,18 @@ function renderLicenseSection(license) {
     }
 }
 
+ // Function that returns license in table of contents
+ // If there is no license, return an empty string
+ function renderLicenseTOC(license) {
+  if (license !== 'no license') {
+  return `
+  * [License](#license)
+    `;
+  } else {
+    return ' ';
+  }
+ }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   // return `# ${data.title}
@@ -69,7 +81,11 @@ function generateMarkdown(data) {
 
   
   ## [Description](#table-of-contents)
-  ${data.description}
+  ${data.what}
+
+  ${data.why}
+
+  ${data.how}
   ## [Installation](#table-of-contents)
   ${data.installation}
   ## [Usage](#table-of-contents)

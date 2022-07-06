@@ -162,7 +162,8 @@ const writeFile = fileContent => {
 const init = () => {
   return inquirer.prompt(questions)
   .then(readmeData => {
-    console.log(readmeData);
+    // console.log(readmeData);
+    return readmeData;
 })
 }
 
