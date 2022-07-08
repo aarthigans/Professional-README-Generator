@@ -81,25 +81,27 @@ function generateMarkdown(data) {
 
   
   ## [Description](#table-of-contents)
-  ${data.what}
+  ${data.description}
 
-  ${data.why}
-
-  ${data.how}
   ## [Installation](#table-of-contents)
   ${data.installation}
+
   ## [Usage](#table-of-contents)
   ${data.usage}
-  ${renderLicenseSection(data.license)}
+
+  ## [License](#table-of-contents)
+  ${data.license}
+
   ## [Contributing](#table-of-contents)
   ${renderContributingSection(data.confirmContributers, data.contribute)}
  
   ## [Tests](#table-of-contents)
   ${data.test}
+
   ## [Questions](#table-of-contents)
   Please contact me using the following links:
   [GitHub](https://github.com/${data.githubUsername})
-  [Email: ${data.email}](mailto:${data.email})
+  [Email: ${data.email}]
 `;
 }
 
