@@ -1,44 +1,38 @@
-  # Test Project
+  # Title of the project
 
   ## Table of Contents
-
+  
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
+  
   * [License](#license)
+    
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## Description
+  
+  ## [Description](#table-of-contents)
+  Repo description
 
-  test description
+  ## [Installation](#table-of-contents)
+  Installation instruction
 
-  ## Installation
+  ## [Usage](#table-of-contents)
+  Examples with instruction
 
-  test installation steps
+  ## [License](#table-of-contents)
+  MIT License
 
-  ## Usage
+  ## [Contributing](#table-of-contents)
+   guidelines
+    
+ 
+  ## [Tests](#table-of-contents)
+  testing guidelines
 
-  test usage steps
-
-  ## License
-
-
-  GNU AGPLv3
-
-  ## Contributing
-
- undefined
-
-  ## Tests
-
-  test testing steps
-
-  ## Questions
-
-  For questions please contact me using the following links:
-
+  ## [Questions](#table-of-contents)
+  Please contact me using the following links:
   [GitHub](https://github.com/aarthigans)
-
-  [Email: testd3625@gmail.com](mailto:testd3625@gmail.com)
+  [Email: test@test.com]
